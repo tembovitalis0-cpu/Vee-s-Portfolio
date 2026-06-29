@@ -1,0 +1,264 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.image{
+    border-radius: 20px;
+    filter: brightness(100%);
+    height: 50px;
+}
+.image:hover{
+    filter: brightness(100%);
+}
+.container{
+ background-color: #293961; 
+}
+
+.pro{
+    opacity: 30%;
+    border-radius: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    border: solid;
+    border-radius: 5px;    
+    border-color: #2463ec;
+    border-width: 5px;
+    border-top: 10px;
+    border-left: 2px;
+    border-right: 5px;
+}
+
+.Logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50PX;
+
+}
+  
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    transition: 2.3s;
+    padding: 5px;
+}
+
+.nav-links a:hover{
+    color: #0888f0;
+    
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+
+
+.greeting{
+    color: #38bdf8;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.name{
+    font-size: 60px;
+    margin-bottom: 15px;
+    color: #8897BD;
+}
+
+.profession{
+    font-size: 30px;
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+.description{
+    width: 500px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: whitesmoke;
+}
+
+.hero-buttons button{
+    padding: 12px 25px;
+    margin-right: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077B6;
+    color: white;
+    font-size: 16px;
+    transition: .1s;
+}
+
+.hero-buttons button:hover{
+    background-color: #0284c7;
+}
+.hero-right{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-right img{
+    width: 350px;
+    height: auto;
+    object-fit: cover;
+}
+.about{
+    padding: 100px 80px;
+    background-color: #2C497F;
+}
+
+.about h2{
+    font-size: 40px;
+    color: #2a84fa;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+
+
+.about p{
+    max-width: 800px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: #e0d3d3;
+}
+.skills{
+    padding: 80px;
+    background: #8897BD;
+}
+
+.skills h2{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    color: #0f172a;
+}
+
+.skills-container{
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.skill-card{
+    width: 250px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    transition: .3s;
+}
+
+.skill-card:hover{
+    transform: translateY(-10px);
+
+}
+.cv-btn{
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #38bdf8;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.9s;
+}
+
+.cv-btn:hover{
+    background-color: #0284c7;
+
+}
+
+
+.projects{
+    padding: 80px;
+    background-color: #E3E4FA;
+}
+
+.projects h2{
+    text-align: center;
+    font-size: 40px;
+    color: #0f172a;
+    margin-bottom: 50px;
+ }
+
+.project-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project-card{
+    width: 320px;
+    background: white;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    transition: 5.0s;
+}
+
+.project-card:hover{
+    transform: translateY(-10px);
+}
+
+.project-card h3{
+    margin-bottom: 15px;
+    color: #0f172a;
+}
+
+.project-card p{
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.project-card a{
+    text-decoration: none;
+    color: #38bdf8;
+    font-weight: bold;
+}
+
+.contact{
+    padding: 80px;
+    background-color: white;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 40px;
+    color: #0f172a;
+    margin-bottom: 20px;
+}
+
+.contact p{
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
